@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicRestAssured.BasicTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-01T11:52:31" hostname="LAPTOP-HH7NTBFA" time="4.847">
+  <properties/>
+  <testcase name="verify_get_project" classname="basicRestAssured.BasicTest" time="3.388"/>
+  <testcase name="createProject" classname="basicRestAssured.BasicTest" time="1.459"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	http://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dXBiMjAyMUB1cGIuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=rbw5gno0fvioy3jorpfah4rl; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 01 Mar 2021 11:52:36 GMT
+Content-Length: 5575
+
+[
+    {
+        "Id": 3895900,
+        "Content": "Work",
+        "ItemsCount": 5,
+        "Icon": 10,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": true,
+        "ItemOrder": 1,
+        "Children": [
+            {
+                "Id": 3895901,
+                "Content": "Sub Project",
+                "ItemsCount": 0,
+                "Icon": 10,
+                "ItemType": 2,
+                "ParentId": 3895900,
+                "Collapsed": false,
+                "ItemOrder": 1,
+                "Children": [
+                    
+                ],
+                "IsProjectShared": false,
+                "ProjectShareOwnerName": null,
+                "ProjectShareOwnerEmail": null,
+                "IsShareApproved": false,
+                "IsOwnProject": true,
+                "LastSyncedDateTime": "/Date(1614599556834)/",
+                "LastUpdatedDate": "/Date(1614340180140)/",
+                "Deleted": false,
+                "SyncClientCreationId": null
+            }
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556834)/",
+        "LastUpdatedDate": "/Date(1614563071190)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3895902,
+        "Content": "Home",
+        "ItemsCount": 0,
+        "Icon": 1,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 2,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614340180157)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3895903,
+        "Content": "Study",
+        "ItemsCount": 0,
+        "Icon": 4,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 3,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614340180157)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3895904,
+        "Content": "Personal",
+        "ItemsCount": 0,
+        "Icon": 6,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 4,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614340180157)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3895905,
+        "Content": "Shopping List",
+        "ItemsCount": 0,
+        "Icon": 14,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 5,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614340180157)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3895957,
+        "Content": "Eynar",
+        "ItemsCount": 0,
+        "Icon": 7,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 8,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614564438997)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3896084,
+        "Content": "Project prueba",
+        "ItemsCount": 0,
+        "Icon": 3,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 9,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614564439010)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3896102,
+        "Content": "Eynar",
+        "ItemsCount": 0,
+        "Icon": 4,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 13,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614597950603)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3896103,
+        "Content": "Eynar",
+        "ItemsCount": 0,
+        "Icon": 4,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 14,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614598881167)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3896104,
+        "Content": "RESTAssured",
+        "ItemsCount": 0,
+        "Icon": 4,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 15,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614599402740)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3896105,
+        "Content": "RESTAssured",
+        "ItemsCount": 0,
+        "Icon": 4,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 16,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614599456437)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3896106,
+        "Content": "RESTAssured",
+        "ItemsCount": 0,
+        "Icon": 4,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 17,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614599493267)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    },
+    {
+        "Id": 3896107,
+        "Content": "RESTAssured",
+        "ItemsCount": 0,
+        "Icon": 4,
+        "ItemType": 2,
+        "ParentId": null,
+        "Collapsed": false,
+        "ItemOrder": 18,
+        "Children": [
+            
+        ],
+        "IsProjectShared": false,
+        "ProjectShareOwnerName": null,
+        "ProjectShareOwnerEmail": null,
+        "IsShareApproved": false,
+        "IsOwnProject": true,
+        "LastSyncedDateTime": "/Date(1614599556849)/",
+        "LastUpdatedDate": "/Date(1614599525400)/",
+        "Deleted": false,
+        "SyncClientCreationId": null
+    }
+]
+Request method:	POST
+Request URI:	http://todo.ly/api/projects.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dXBiMjAyMUB1cGIuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "Content": "RESTAssured",
+    "Icon": "4"
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=w25qysa1ekpt132lmjlqugp0; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Mon, 01 Mar 2021 11:52:37 GMT
+Content-Length: 400
+
+{
+    "Id": 3896108,
+    "Content": "RESTAssured",
+    "ItemsCount": 0,
+    "Icon": 4,
+    "ItemType": 2,
+    "ParentId": null,
+    "Collapsed": false,
+    "ItemOrder": 19,
+    "Children": [
+        
+    ],
+    "IsProjectShared": false,
+    "ProjectShareOwnerName": null,
+    "ProjectShareOwnerEmail": null,
+    "IsShareApproved": false,
+    "IsOwnProject": true,
+    "LastSyncedDateTime": "/Date(1614599557785)/",
+    "LastUpdatedDate": "/Date(1614599557770)/",
+    "Deleted": false,
+    "SyncClientCreationId": null
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
